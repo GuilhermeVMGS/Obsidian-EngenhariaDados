@@ -11,10 +11,14 @@
             "id": "56b38d1d915ed016",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Testes Git.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Testes Git"
             }
           }
         ]
@@ -176,17 +180,18 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2d5b399afc399a7f",
+  "active": "56b38d1d915ed016",
   "lastOpenFiles": [
+    "Testes Git.md",
     "gitgnore.txt",
     "Novo Documento de Texto.txt",
     "Untitled.base",
     "Bancos de Dados e Conceito Base/Transações ACID.md",
     "Bancos de Dados e Conceito Base/Banco transacional (OLTP).md",
-    "Untitled.md",
     "Bancos de Dados e Conceito Base/OLAP.md",
     "Welcome.md",
     "Bancos de Dados e Conceito Base"
