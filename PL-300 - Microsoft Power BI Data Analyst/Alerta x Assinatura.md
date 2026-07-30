@@ -1,3 +1,11 @@
+Primeiro:
+
+Alerta NÃO funciona no relatório.
+
+Funciona em: **dashboard (painéis)**.
+
+Mais especificamente: nos **tiles** fixados.
+
 ## Alerta (Alert)
 
 Dispara quando um valor atingir determinada condição.
