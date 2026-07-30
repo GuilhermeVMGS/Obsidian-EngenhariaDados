@@ -14,3 +14,5 @@ Para ativar a Detecção de Anomalias no Power BI Desktop:
 1. O visual deve ser obrigatoriamente um **Gráfico de Linhas (Line Chart)**.
 2. O eixo do gráfico deve conter um campo no formato de **Data/Hora** (série temporal).
 3. O campo de data no eixo precisa conter dados em um nível de granularidade contínuo (Ex: _Dia, Mês, Ano_).
+
+![[Pasted image 20260730155827.png]]

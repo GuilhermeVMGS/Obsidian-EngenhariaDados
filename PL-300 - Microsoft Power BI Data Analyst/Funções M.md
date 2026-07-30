@@ -27,7 +27,8 @@ Number.FromText("100")
 
 ### Web.Contents()
 
-## O que é?
+
+**O que é?**
 
 `Web.Contents()` é uma função do Power Query (linguagem M) usada para acessar conteúdo da Web.
 

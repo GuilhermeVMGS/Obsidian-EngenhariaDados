@@ -1,24 +1,63 @@
 
-Query Folding é quando o Power Query envia transformações para o banco.
+# O que é Query Folding?
 
-Exemplo:
+Query Folding é a capacidade do Power Query de **converter etapas M em comandos da origem dos dados**.
+
+Ou seja:
 
 Power Query:
 
 ```
-Filtro Data > 2025
+M Language
+    ↓
+Query Folding
+    ↓
+SQL enviado para Synapse
 ```
 
-vira SQL:
+A origem executa o trabalho pesado.
+
+---
+
+# Como saber se está funcionando?
+
+No Power Query:
+
+1. Abra o Editor do Power Query
+2. Clique com botão direito em uma etapa
+3. Veja:
+
+**"Exibir consulta nativa"**
+
+ou
+
+**"View Native Query"**
+
+Se estiver disponível:
+
+✅ aquela etapa ainda está sendo enviada para a origem.
+
+Se estiver desabilitado:
+
+❌ o folding quebrou naquela etapa.
+
+---
+
+# Indicador de Query Folding
+
+Nas versões mais recentes do Power BI existe o indicador:
+
+- ✅ **Folding completo**
+- ⚠️ **Folding parcial**
+- ❌ **Sem folding**
+
+Exemplo:
 
 ```
-SELECT *
-FROM tabela
-WHERE Data > '2025'
+Fonte                    ✅
+Filtro de data           ✅
+Remover coluna           ✅
+Coluna personalizada     ❌
 ```
 
-Isso é bom.
-
-Desativar faz o Power Query trazer mais dados para o Power BI.
-
-Pioraria o desempenho.
+A partir da coluna personalizada, o Power BI começa a processar localmente.
