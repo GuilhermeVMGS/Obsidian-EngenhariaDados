@@ -240,15 +240,13 @@ mas
 A solução é:
 
 ```
-Build
-
+Build (Permissão de compilação)
 ↓
-
-Pode consultar.
-
-Pode criar.
-
-Não pode editar.
+✅ Pode consultar o modelo semântico
+✅ Pode criar novos relatórios usando esse modelo
+✅ Pode criar medidas locais no relatório (dependendo do recurso/configuração)
+❌ Não pode editar o modelo semântico original
+❌ Não pode alterar tabelas, colunas, relacionamentos ou medidas do dataset
 ```
 
 ---
